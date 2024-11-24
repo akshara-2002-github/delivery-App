@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	background-color: transparent;
+}
+
+html,
+body {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+body {
+	overflow-y: auto;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+.app {
+	padding: 0px 60px;
+	width: calc(100% - 120px);
+	height: 100%;
+}
