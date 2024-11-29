@@ -1,15 +1,16 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import Login from './pages/Login';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import './index.css'
 
-import './index.css';
 
-createRoot(document.getElementById('root')).render(
-	<StrictMode>
-		<div className="app">
-			<Login />
-		</div>
-	</StrictMode>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );
 
-//https://excalidraw.com/#room=f2c6183127dc7d118f38,4YdCJIs-xr0K8qRsu5Wtkw
+

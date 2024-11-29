@@ -1,69 +1,68 @@
-.loginPage {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-  width: 100%;
-  justify-content: space-around;
-  padding: 10px;
-}
-.loginPage__content {
+.loginForm__content {
   display: flex;
   flex-direction: column;
+  gap: 48px;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 90px;
+  padding: 108px;
 }
-.loginPage__content__logo {
+.loginForm__content__logo {
   background-image: url("../../assets/loginPage__content__logo.png");
   background-position: center center;
   background-size: cover;
   width: 215px;
   height: 53px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.loginPage__content > h2 {
+.loginForm__content > h2 {
   font-family: Poppins;
   font-size: 36px;
   font-weight: 600;
   line-height: 36px;
 }
-.loginPage__content > p {
+.loginForm__content > p {
   font-family: Poppins;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
 }
-.loginPage__content > form {
+.loginForm__content > form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 15px;
+
+  width: 463px;
+
+  gap: 24px;
 }
 
-.loginPage__content > form > label {
+.loginForm__content > form > label {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  width: 463px;
+  color: #0c1421;
 }
 
-.loginPage__content > form > input {
-  width: 100%;
-  height: auto;
-  padding: 10px;
+.input {
+  width: 463px;
+  height: 48px;
 
   border-radius: 100px;
-  border: 1px solid black;
+  border: 1px solid #8897ad;
 
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
 }
-.loginPage__content > form > button {
-  width: 100%;
-  height: auto;
-  padding: 15px;
+.loginForm__content > form > button {
+  
+  
+
   background-color: #fc8a06;
   border-radius: 100px;
   color: white;
@@ -71,20 +70,26 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 20px;
+
+  width: 463px;
+  height: 48px;
+ 
 }
-.loginPage__content > p > a {
+.bottom__text{
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+letter-spacing: 0.01em;
+text-align: center;
+
+
+}
+.bottom__text > p > a {
   font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
   line-height: 28.8px;
   letter-spacing: 0.01em;
   color: #fc8a06;
-}
-.loginPage__image {
-  background-image: url("../../assets/LoginPage__image.png");
-  background-position: center center;
-  background-size: cover;
-  width: 816px;
-  height: auto;
-  border-radius: 24px;
 }

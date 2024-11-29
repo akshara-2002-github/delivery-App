@@ -50,10 +50,10 @@ const Footer = () => {
 			</div>
 
 			<div className="footer__disclaimer">
-				<div>
+				<div className='footer__disclaimer__1'>
 					<p>Order.uk Copyright 2024, All Rights Reserve</p>
 				</div>
-				<div>
+				<div className='footer__disclaimer__2'>
 					<p>Privacy Policy </p>
 					<p>Terms</p>
 					<p>pricing</p>
