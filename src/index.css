@@ -28,8 +28,8 @@ body {
 	width: 100%;
 }
 
-.app {
-	padding: 0px 60px;
+/* .app, #app {
+	padding: 0px 60px ;
 	width: calc(100% - 120px);
 	height: 100%;
-}
+} */

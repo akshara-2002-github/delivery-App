@@ -1,3 +1,90 @@
-.login-form {
-	width: 100%;
+.loginPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  justify-content: space-around;
+  padding: 10px;
+}
+.loginPage__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 90px;
+}
+.loginPage__content__logo {
+  background-image: url("../../assets/loginPage__content__logo.png");
+  background-position: center center;
+  background-size: cover;
+  width: 215px;
+  height: 53px;
+}
+.loginPage__content > h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.loginPage__content > p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.loginPage__content > form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.loginPage__content > form > label {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.loginPage__content > form > input {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+
+  border-radius: 100px;
+  border: 1px solid black;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.loginPage__content > form > button {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  background-color: #fc8a06;
+  border-radius: 100px;
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.loginPage__content > p > a {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  color: #fc8a06;
+}
+.loginPage__image {
+  background-image: url("../../assets/LoginPage__image.png");
+  background-position: center center;
+  background-size: cover;
+  width: 816px;
+  height: auto;
+  border-radius: 24px;
 }
