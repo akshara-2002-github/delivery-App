@@ -1,0 +1,115 @@
+.header {
+  margin: 0 100px 0 100px;
+  width: calc(100%-200px);
+  height: 70px;
+
+  border-radius: 0px 0px 12px 12px;
+
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #0000001a;
+}
+.header__star {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-left: 10px;
+}
+.header__star > p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.5px;
+}
+
+.header__star > p > a {
+  color: #fc8a06;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.5px;
+  text-decoration: underline;
+}
+
+.header__location {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-left: 90px;
+  align-items: center;
+}
+.header__location > div:first-child {
+  background-image: url("../../assets/header__location.png");
+
+  background-position: center center;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+}
+.header__location > p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.5px;
+}
+.header__location > a {
+  color: #fc8a06;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.5px;
+  text-decoration: underline;
+}
+
+.header__cart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  background-color: #028643;
+  width: 378px;
+  height: 70px;
+  align-items: center;
+  border-radius: 0px 0px 12px 12px;
+}
+.cart > div:first-child {
+  background-image: url("../../assets/header__shopping_basket.png");
+
+  background-position: center center;
+  background-size: cover;
+  width: 43px;
+  height: 43px;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cart > p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+  padding-left: 5px;
+}
+.box {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.header__cart__button {
+  background-image: url("../../assets/header__cart__button.png");
+
+  background-position: center center;
+  background-size: cover;
+  width: 38px;
+  height: 38px;
+}
