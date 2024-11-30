@@ -1,0 +1,46 @@
+.headerBar {
+  margin: 38px 100px 38px 100px;
+  width: calc(100%-200px);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerBar__logo {
+  background-image: url("../../assets/loginPage__content__logo.png");
+  background-position: center center;
+  background-size: cover;
+  width: 215px;
+  height: 53px;
+}
+
+.headerBar > button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #03081F;
+    width: 234px;
+height: 61px;
+
+border-radius: 120px ;
+
+
+}
+.headerBar > button > div:first-child {
+  background-image: url("../../assets/Male__User.png");
+  background-position: center center;
+  background-size: cover;
+  width: 30.97px;
+  height: 27px;
+  border-radius: 1px 0px 0px 0px;
+}
+.headerBar >button>p{
+    color: white;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+
+}

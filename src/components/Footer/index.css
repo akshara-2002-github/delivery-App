@@ -25,7 +25,7 @@
   background-image: url("../../assets/logo__icon.png");
   background-position: center center;
   background-size: cover;
-  background-color: transparent;
+ 
   width: 268px;
   height: 66px;
 }
@@ -172,6 +172,7 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 43px;
+  text-decoration: underline;
 }
 
 .footer__disclaimer {
@@ -193,6 +194,7 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 22.5px;
+  
 }
 .footer__disclaimer__2 > p {
   font-family: Poppins;
