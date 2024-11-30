@@ -21,6 +21,10 @@ body {
 
 body {
 	overflow-y: auto;
+
+	--max-width: 1728px;
+	--padding-after-width: calc(100% - var(--max-width));
+	--padding-left: calc(var(--padding-after-width) / 2);
 }
 
 #root {
@@ -28,8 +32,21 @@ body {
 	width: 100%;
 }
 
+.page {
+	padding-left: var(--padding-left);
+	padding-right: var(--padding-left);
+	width: calc(100% - var(--padding-after-width));
+}
+
 /* .app, #app {
 	padding: 0px 60px ;
 	width: calc(100% - 120px);
 	height: 100%;
 } */
+
+@media (max-width: 1728px) {
+	.page {
+		padding: 0px 20px;
+		width: calc(100% - 40px);
+	}
+}
